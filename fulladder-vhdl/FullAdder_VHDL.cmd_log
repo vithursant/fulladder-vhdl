@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "H:/ENGG3050/FullAdderVHDL/FullAdder_VHDL.xst" -ofn "H:/ENGG3050/FullAdderVHDL/FullAdder_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 FullAdder_VHDL.ngc FullAdder_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FullAdder_VHDL_map.ncd FullAdder_VHDL.ngd FullAdder_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off FullAdder_VHDL_map.ncd FullAdder_VHDL.ncd FullAdder_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FullAdder_VHDL.twx FullAdder_VHDL.ncd -o FullAdder_VHDL.twr FullAdder_VHDL.pcf 
+bitgen -intstyle ise -f FullAdder_VHDL.ut FullAdder_VHDL.ncd 
+xst -intstyle ise -ifn "H:/ENGG3050/FullAdderVHDL/FullAdder_VHDL.xst" -ofn "H:/ENGG3050/FullAdderVHDL/FullAdder_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FullAdder_UCF.ucf -p xc6slx16-csg324-3 FullAdder_VHDL.ngc FullAdder_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FullAdder_VHDL_map.ncd FullAdder_VHDL.ngd FullAdder_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off FullAdder_VHDL_map.ncd FullAdder_VHDL.ncd FullAdder_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FullAdder_VHDL.twx FullAdder_VHDL.ncd -o FullAdder_VHDL.twr FullAdder_VHDL.pcf -ucf FullAdder_UCF.ucf 
+bitgen -intstyle ise -f FullAdder_VHDL.ut FullAdder_VHDL.ncd 
+xst -intstyle ise -ifn "H:/ENGG3050/FullAdderVHDL/FullAdder_VHDL.xst" -ofn "H:/ENGG3050/FullAdderVHDL/FullAdder_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FullAdder_UCF.ucf -p xc6slx16-csg324-3 FullAdder_VHDL.ngc FullAdder_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FullAdder_VHDL_map.ncd FullAdder_VHDL.ngd FullAdder_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off FullAdder_VHDL_map.ncd FullAdder_VHDL.ncd FullAdder_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FullAdder_VHDL.twx FullAdder_VHDL.ncd -o FullAdder_VHDL.twr FullAdder_VHDL.pcf -ucf FullAdder_UCF.ucf 
+bitgen -intstyle ise -f FullAdder_VHDL.ut FullAdder_VHDL.ncd 

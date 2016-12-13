@@ -1,0 +1,5 @@
+Command line:
+   FullAdderVHDL_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50848

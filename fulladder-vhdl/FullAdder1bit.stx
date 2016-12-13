@@ -1,0 +1,65 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to H:/ENGG3050/FullAdderVHDL/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to H:/ENGG3050/FullAdderVHDL/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: FullAdder1bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\south.cfs.uoguelph.ca\soe-undergradhome$\gthoms\ENGG3050\FullAdderVHDL\FullAdder1bit.vhd" into library work
+Parsing entity <FullAdder1bit>.
+Parsing architecture <FA_dataflow> of entity <fulladder1bit>.
+Parsing architecture <FA_struct> of entity <fulladder1bit>.
+Parsing architecture <FA_Behav> of entity <fulladder1bit>.
+Parsing entity <xor_2>.
+Parsing architecture <structural> of entity <xor_2>.
+Parsing entity <and_2>.
+Parsing architecture <structural> of entity <and_2>.
+Parsing entity <or_2>.
+Parsing architecture <structural> of entity <or_2>.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.00 secs
+ 
+--> 
+
+Total memory usage is 182352 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

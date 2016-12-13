@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "H:/ENGG3050/FullAdderVHDL/FullAdderVHDL_testbench_isim_beh.exe" -prj "H:/ENGG3050/FullAdderVHDL/FullAdderVHDL_testbench_beh.prj" "work.FullAdderVHDL_testbench" 

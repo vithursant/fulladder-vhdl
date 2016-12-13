@@ -1,0 +1,20 @@
+# input A(0,1,2)
+NET A(0) LOC=T10;
+NET A(1) LOC=T9;
+NET A(2) LOC=V9;
+
+# input B(0,1,2)
+NET B(0) LOC=N8;
+NET B(1) LOC=U8;
+NET B(2) LOC=V8;
+
+# input carry in
+NET Ci LOC=D9;
+
+# output sum(0,1,2)
+NET S(0) LOC=U16;
+NET S(1) LOC=V16;
+NET S(2) LOC=U15;
+
+# output carry out
+NET Co LOC=V15;

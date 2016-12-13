@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o H:/ENGG3050/FullAdderVHDL/FullAdderVHDL_testbench_isim_beh.exe -prj H:/ENGG3050/FullAdderVHDL/FullAdderVHDL_testbench_beh.prj work.FullAdderVHDL_testbench 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "H:/ENGG3050/FullAdderVHDL/FullAdder1bit.vhd" into library work
+Parsing VHDL file "H:/ENGG3050/FullAdderVHDL/FullAdder_VHDL.vhd" into library work
+Parsing VHDL file "H:/ENGG3050/FullAdderVHDL/FullAdderVHDL_testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture fa_dataflow of entity FullAdder1bit [fulladder1bit_default]
+Compiling architecture structural of entity xor_2 [xor_2_default]
+Compiling architecture structural of entity and_2 [and_2_default]
+Compiling architecture structural of entity or_2 [or_2_default]
+Compiling architecture fa_struct of entity FullAdder1bit [fulladder1bit_default]
+Compiling architecture fa_behav of entity FullAdder1bit [fulladder1bit_default]
+Compiling architecture behavioral of entity FullAdder_VHDL [fulladder_vhdl_default]
+Compiling architecture behavior of entity fulladdervhdl_testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable H:/ENGG3050/FullAdderVHDL/FullAdderVHDL_testbench_isim_beh.exe
+Fuse Memory Usage: 29628 KB
+Fuse CPU Usage: 561 ms
